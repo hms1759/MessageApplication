@@ -6,7 +6,6 @@ import 'package:connectivity_plus/connectivity_plus.dart';
 import 'package:flutter/material.dart';
 import 'package:internet_connection_checker/internet_connection_checker.dart';
 import 'package:lovemessage/screen/homepage.dart';
-import 'package:overlay_support/overlay_support.dart';
 
 
 class MyHttpOverrides extends HttpOverrides{
@@ -90,6 +89,7 @@ class _MyInternetState extends State<MyInternet> {
                   child: Text("No Internet, Please check Your Connectivity")
               );
           }
+
         }
         )
       ),
